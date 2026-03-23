@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Create - CouCou</title>
+  <link rel="stylesheet" href="../css/style.css"/>
+  <link rel="stylesheet" href="../css/create.css"/>
+  <link rel="stylesheet" href="../css/scrollToTop.css">
+
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="index.html" class="navbar__logo">
+                <img src="../images/00CouCou_Logo.svg" alt="logo">
+            </a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="index.html" class="navbar__links">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="food.html" class="navbar__links">Food</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="drinks.html" class="navbar__links">Drinks</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="create.html" class="navbar__links">Create a Recipe</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="about us.html" class="navbar__links">About Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section class="outside_form">
+            <section class="form">
+            <h2>Submit a Recipe!</h2>
+            <p>We would love to have you collaborate with us!
+                Help us expand our recipes so more people can enjoy your amazing flavors. </p>
+                <form id="recipeForm" action="action_page.html">
+
+                <label for="title">Name:</label>
+                <input type="text" id="title" name="title" placeholder="Recipe name"><br>
+                
+                <label for="servings">Servings:</label>
+                <input type="text" id="servings" name="servings" placeholder="E.g. 1, 2, 3 4, 5, 6"><br>
+
+                <label for="desc">Description:</label>
+                <input type="text" id="desc" name="dec" placeholder="Write a short description of your food or drink"><br>
+
+                <label for="ingredients">Ingredients:</label>
+                <input type="text" id="ingredients" name="ingredients" placeholder="E.g. 2 eggs, 50ml of milk, 5 sticks of butter, etc."><br>
+
+                <label for="method">Method:</label>
+                <input type="text" id="method" name="method" placeholder="Write the method in steps"><br>
+
+                <br><br><input type="submit" value="Submit">
+                </form> 
+            </section>
+        </section>
+    </main>
+
+    <div id="errorPopup" class="popup-overlay hidden">
+        <div class="popup-box">
+            <h3>Oops! Some fields are missing.</h3>
+            <p>Please fill out all the required fields before submitting.</p>
+            <button id="closePopup">OK</button>
+        </div>
+    </div>
+
+    <footer id="footer-placeholder"></footer>
+
+    <script src="../js/script.js"></script>
+    <script src="../js/loadFooter.js"></script>
+
+</body>
+</html>

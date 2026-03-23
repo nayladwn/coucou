@@ -1,0 +1,21 @@
+.background {
+    background-color: #E3C8D1;
+    background-image: url('../images/00BG_pattern.svg');
+    background-size: contain;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #523D34;
+}
+
+body {
+    padding-top: 80px;
+}s
+
+@media (max-width: 480px) {
+    .background {
+        height: 70vh;
+    }
+}

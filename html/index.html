@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CouCou Kitchen</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/scrollToTop.css">
+
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="index.html" class="navbar__logo">
+                <img src="../images/00CouCou_Logo.svg" alt="logo">
+            </a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="index.html" class="navbar__links">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="food.html" class="navbar__links">Food</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="drinks.html" class="navbar__links">Drinks</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="create.html" class="navbar__links">Create a Recipe</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="about us.html" class="navbar__links">About Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+
+        <section class="intro">
+            <div class="intro__container">
+                <div class="intro__content">
+                    <h1>Hello!</h1>
+                    <p>Welcome to CouCou Kitchen</p>
+                    <a href="food.html" class="intro__btn">Get Started</a>
+                </div>
+                <figure class="intro__img--container">
+                    <div class="img__overlay"></div>
+                    <img src="../images/1LandingPage.jpg" alt="Welcome Food Image" id="intro__img"/>
+                </figure>
+            </div>
+        </section>
+
+        <section class="break__content">
+            <p>
+                Welcome to CouCou Kitchen! We are so delighted you are here.
+                Discover our menu of delicious food and drinks—perfect for hosting a
+                dinner party or enjoying a meal solo. This is the place to be.
+            </p>
+        </section>
+
+        <section class="options">
+            <h1>What are we making today?</h1>
+
+            <div class="options__container">
+
+                <article class="options__card">
+                    <figure class="image__container">
+                        <img src="../images/2DiscoverFood.jpg" alt="Discover Food"/>
+                        <a href="food.html" class="overlay__button">Discover Food</a>
+                    </figure>
+                    <div class="card__desc">
+                        <h2>Food</h2>
+                        <p>Take a look at our amazing selection of food!</p>
+                    </div>
+                </article>
+
+                <article class="options__card">
+                    <figure class="image__container">
+                        <img src="../images/3DiscoverDrinks.jpg" alt="Discover Drinks"/>
+                        <a href="drinks.html" class="overlay__button">Discover Drinks</a>
+                    </figure>
+                    <div class="card__desc">
+                        <h2>Drinks</h2>
+                        <p>Wind down and relax with a nice, refreshing drink.</p>
+                    </div>
+                </article>
+
+            </div>
+
+        </section>
+
+        <section class="form">
+            <h2>Join Us</h2>
+            <form class="join-form">
+                <input type="email" placeholder="example@email.com" class="join-input" required/>
+                <button type="submit" class="join-button">Register</button>
+            </form>
+        </section>
+    </main>
+
+    <footer id="footer-placeholder"></footer>
+
+    <script src="../js/script.js"></script>
+    <script src="../js/loadFooter.js"></script>
+
+</body>
+</html>

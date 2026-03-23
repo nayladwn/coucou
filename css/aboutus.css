@@ -1,0 +1,97 @@
+body {
+    padding-top: 80px;
+}
+
+.banner_card {
+    position: relative;
+    height: 50vh;
+}
+
+.banner_card img{
+    filter: brightness(70%);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+.banner_text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #F4EDDB;
+}
+
+.banner_text h1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.banner_text p {
+    line-height: 1.5rem;
+}
+
+.contact_section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #F4EDDB;
+}
+
+.contact_social {
+    align-content: center;
+    justify-items: center;
+    text-align: center;
+    background-color: #942A22;
+    width: 50%;
+    height: auto;
+    padding: 4rem 2rem;
+}
+
+.contact_social p img {
+    filter: invert(100%) sepia(20%) saturate(500%) hue-rotate(335deg) brightness(200%) contrast(91%);
+}
+
+.contact_info {
+    background-color: #442D1F;
+    justify-items: center;
+    align-content: center;
+    text-align: center;
+    width: 50%;
+    height: auto;
+    padding: 4rem 2rem;
+}
+
+.contact_section h2 {
+  font-family: 'Georgia', serif;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.contact_section p {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0.5rem 0;
+}
+
+.icon {
+  height: 1.2rem;
+}
+
+@media screen and (max-width: 480px) {
+    .banner_card {
+        height: 65vh;
+    }
+
+    .banner_text h1 {
+    font-size: 50px;
+    }
+
+    .banner_text p {
+    font-size: 15px;
+    }
+}
