@@ -2,16 +2,16 @@ document.addEventListener("DOMContentLoaded", function () {
   const footerHTML = `
     <footer class="footer">
       <div class="footer__top">
-        <a class="footer__logo" href="../index.html">
+        <a class="footer__logo" href="../html/index.html">
           <img src="../images/00CouCou_Logo.svg" alt="CouCou Logo"/>
         </a>
         <nav>
           <ul class="footer__nav">
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="../food.html">Food</a></li>
-            <li><a href="../drinks.html">Drinks</a></li>
-            <li><a href="../create.html">Create a Recipe</a></li>
-            <li><a href="../about us.html">About Us</a></li>
+            <li><a href="../html/index.html">Home</a></li>
+            <li><a href="../html/food.html">Food</a></li>
+            <li><a href="../html/drinks.html">Drinks</a></li>
+            <li><a href="../html/create.html">Create a Recipe</a></li>
+            <li><a href="../html/about us.html">About Us</a></li>
           </ul>
         </nav>
       </div>
